@@ -13,6 +13,22 @@ bool write_ppm(
   ////////////////////////////////////////////////////////////////////////////
   // Replace with your code from computer-graphics-raster-images or email
   // jacobson@cs.toronto.edu for correct code.
-  return false;
+    std::ofstream f(filename);
+    bool color_channel = (num_channels == 3);
+
+
+    f << 'P' << (color_channel ? "3" : "2") << '\n';
+    f << width << '\t' << height << '\n';
+    f << "255" << '\n';
+
+    for (int i = 0; i < data.size(); i++) {
+
+        f << int(data[i]) << ' ';
+
+        if (i != 0 && i % width == 0)
+            f << '\n';
+
+    }
+    return true;
   ////////////////////////////////////////////////////////////////////////////
 }

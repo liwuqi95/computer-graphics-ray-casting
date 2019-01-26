@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raycasting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\shared\;CMake Files\shared\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycasting">
+				<Option output="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/raycasting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/include"/>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/shared/cmake/../eigen"/>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/shared/cmake/../json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 raycasting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycasting/fast">
+				<Option output="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/raycasting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/include"/>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/shared/cmake/../eigen"/>
+					<Add directory="/Users/wuqili/Desktop/csc2504/a2/shared/cmake/../json"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 raycasting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wuqili/Desktop/csc2504/a2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/main.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/Plane.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/Sphere.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/Triangle.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/TriangleSoup.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/first_hit.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/viewing_ray.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/src/write_ppm.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wuqili/Desktop/csc2504/a2/shared/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\shared\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

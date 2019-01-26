@@ -8,7 +8,12 @@ bool TriangleSoup::intersect(
 {
   ////////////////////////////////////////////////////////////////////////////
   // Replace with your code here:
-  return false;
+  int hit_id;
+
+  // find the closest intersected triangle
+
+  return first_hit(ray, min_t, triangles, hit_id, t, n);
+
   ////////////////////////////////////////////////////////////////////////////
 }
 
